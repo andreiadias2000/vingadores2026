@@ -1,0 +1,30 @@
+/* seleciona todos os elementos do html */
+*{
+    /* zerar os espaçamentos dos elementos */
+    margin: 0;
+    padding: 0;
+
+    /* considerar a borta tambem */
+    box-sizing: border-box ;
+
+    
+}
+
+/* definir valores padrao pra propriedades abaixo */
+
+body{
+
+    /* difinir uma fonte padrao */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    /* definir o tamanho padrao da fonte da pagina */
+    font-size: 16px;
+
+    /* definir a cor do texto padrao */
+    color: #333;
+
+    /* definir o alinhamento padrao */
+    text-align: center;
+
+}
+
