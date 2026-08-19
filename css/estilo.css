@@ -27,4 +27,19 @@ body{
     text-align: center;
 
 }
+/* seleciona tudo da classe container */
+.container{
+    /* definir a largura minima e a maxima do site */
+    min-width: 400px;
+    max-width: 1200px;
+
+    /* cor de fundo */
+    background-color: gray;
+
+    /* centralizar container */
+    margin: 0 auto;
+    
+
+
+}
 
