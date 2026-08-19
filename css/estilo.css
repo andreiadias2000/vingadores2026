@@ -6,7 +6,6 @@
 
     /* considerar a borta tambem */
     box-sizing: border-box ;
-
     
 }
 
@@ -38,8 +37,57 @@ body{
 
     /* centralizar container */
     margin: 0 auto;
-    
-
 
 }
 
+header{
+
+    background-color: #333;
+
+}
+
+a.logo{
+
+    /* inline-block permite que o elemento tenha a latura e larura que quero */
+    display: inline-block;
+    
+    width: 150px;
+}
+
+a.logo>img{
+
+    width: 100%;
+
+}
+
+/* o marcador sempre fica de fora da marcação */
+
+li{
+    /* posição do marcador da lista */
+    /* list-style-position: inside; */
+
+    /* sem nenhuma marcador */
+    list-style-type: none;
+}
+
+a:link,
+a:visited{
+
+    color: #ebeebe;
+    text-decoration: none;
+}
+
+.banner{
+
+    /* defini uma imagem de fundo */
+    background-image: url(../img/banner.jpg);
+    height: 300px;
+
+    /* define o tamanho da imagem de fundo */
+    background-size: cover;
+    color: antiquewhite;
+
+    /* definir a posição do background */
+    background-position: center;
+    
+}
